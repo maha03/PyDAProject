@@ -11,7 +11,6 @@ import wolframalpha
 import mediawiki
 from mediawiki import MediaWiki
 import pyttsx3
-import time
 
 # creating necessary objects of the required classes in the above libraries
 wolframalpha_appId = "T7RH9E-X27PE7T483"
