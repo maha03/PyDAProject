@@ -1,8 +1,8 @@
 '''This project is to implement a digital assistant named PyDA. PyDA will find answer for user queries using
 Wolfram Alpha computational enginer and Wikipedia page articles.
 PyDA returns the answer in both text and speech format. The speech format is implemented using pyttsx3 library.
-Right now, the voice can be female/male. In future version, I plan to develop PyDA with voice being user choice
-including a non-binary gender neutral voice.
+Right now, the voice can be either male or female (In setProperty() of engine, 0 is male and 1 is female).
+In future version, I plan to develop PyDA with voice being user choice including a non-binary gender neutral voice.
 '''
 
 # Below are the libraries for GUI generation, accessing Wolframaplha search API , Wikipedia API,Text to speech conversion
